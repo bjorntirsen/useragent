@@ -13,7 +13,7 @@ function App() {
             <p>{item.brand}: {item.version}</p>
           ))}
           <h4>Mobile</h4>
-          <p>{userAgentData.mobile && userAgentData.mobile.toString()}</p>
+          <p>{userAgentData.mobile.toString() && userAgentData.mobile.toString()}</p>
           <h4>Platform</h4>
           <p>{userAgentData.platform && userAgentData.platform}</p>
         </header>
